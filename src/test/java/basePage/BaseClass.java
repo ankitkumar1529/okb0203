@@ -15,15 +15,17 @@ public class BaseClass {
 		driver =new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().deleteAllCookies();
-		driver.get("");
+		driver.get("https://development.okbima.com/");
 		driver.manage().window().maximize();
 		
 	}
 	
-	@AfterClass
+	@AfterClass(enabled=false)
 	public void teardown()
 	{
 		driver.close();
 	}
+	
+	
 
 }
