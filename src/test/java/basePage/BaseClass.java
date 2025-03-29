@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.*;
 
 public class BaseClass {
@@ -12,6 +13,9 @@ public class BaseClass {
 	@BeforeClass
 	public void setup()
 	{
+//		ChromeOptions opt=new ChromeOptions();
+//		opt.addArguments("--headless=new");
+//		driver =new ChromeDriver(opt);
 		driver =new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().deleteAllCookies();
@@ -20,7 +24,7 @@ public class BaseClass {
 		
 	}
 	
-	@AfterClass(enabled=false)
+	@AfterClass()
 	public void teardown()
 	{
 		driver.close();
