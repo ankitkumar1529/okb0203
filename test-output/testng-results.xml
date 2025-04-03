@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-02T18:38:51 IST" name="Default suite" finished-at="2025-04-02T18:39:03 IST" duration-ms="11674">
+  <suite started-at="2025-04-03T17:23:28 IST" name="Default suite" finished-at="2025-04-03T17:23:44 IST" duration-ms="15835">
     <groups>
     </groups>
-    <test started-at="2025-04-02T18:38:51 IST" name="Default test" finished-at="2025-04-02T18:39:03 IST" duration-ms="11674">
-      <class name="testCases.TC003_verify_MotorInsurance">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC003_verify_MotorInsurance@62ddbd7e]" started-at="2025-04-02T18:38:51 IST" name="setup" finished-at="2025-04-02T18:38:54 IST" duration-ms="3304" status="PASS">
+    <test started-at="2025-04-03T17:23:28 IST" name="Default test" finished-at="2025-04-03T17:23:44 IST" duration-ms="15835">
+      <class name="testCases.TC004_verify_BrandNewCar">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC004_verify_BrandNewCar@62ddbd7e]" started-at="2025-04-03T17:23:28 IST" name="setup" finished-at="2025-04-03T17:23:31 IST" duration-ms="3315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_motorInsurance_Functionality()[pri:0, instance:testCases.TC003_verify_MotorInsurance@62ddbd7e]" started-at="2025-04-02T18:38:54 IST" name="verify_motorInsurance_Functionality" finished-at="2025-04-02T18:39:03 IST" duration-ms="8327" status="PASS">
+        <test-method signature="verifyBrandNewCar()[pri:0, instance:testCases.TC004_verify_BrandNewCar@62ddbd7e]" started-at="2025-04-03T17:23:31 IST" name="verifyBrandNewCar" finished-at="2025-04-03T17:23:44 IST" duration-ms="12449" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_motorInsurance_Functionality -->
-      </class> <!-- testCases.TC003_verify_MotorInsurance -->
+        </test-method> <!-- verifyBrandNewCar -->
+      </class> <!-- testCases.TC004_verify_BrandNewCar -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

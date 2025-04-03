@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC003_verify_MotorInsurance">
+      <class name="testCases.TC004_verify_BrandNewCar">
         <methods>
           <include name="setup"/>
-          <include name="verify_motorInsurance_Functionality"/>
+          <include name="verifyBrandNewCar"/>
         </methods>
-      </class> <!-- testCases.TC003_verify_MotorInsurance -->
+      </class> <!-- testCases.TC004_verify_BrandNewCar -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
