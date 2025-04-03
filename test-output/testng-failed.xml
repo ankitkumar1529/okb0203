@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC002_Verify_Querry_popup">
+      <class name="testCases.TC003_verify_MotorInsurance">
         <methods>
           <include name="setup"/>
-          <include name="teardown"/>
-          <include name="verifyQuerryPopUp"/>
+          <include name="verify_motorInsurance_Functionality"/>
         </methods>
-      </class> <!-- testCases.TC002_Verify_Querry_popup -->
+      </class> <!-- testCases.TC003_verify_MotorInsurance -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

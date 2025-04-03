@@ -13,11 +13,11 @@ public class querryPopUp_Page extends BasePage{
 		super(driver);
 	}
 
-	//to close the querry popup after land to the okbima page
+	//to close the query popup after land to the okbima page
 	@FindBy(xpath="//div[@id='call_scheduleModal']//button[@aria-label='Close']")
 	WebElement btn_close;
 	
-	//first step of querry popup
+	//first step of query popup
 	@FindBy(xpath="//select[@id='type']")
 	WebElement yourQuerryDropDown ;
 	
@@ -31,7 +31,7 @@ public class querryPopUp_Page extends BasePage{
 	WebElement btn_confirmSchedule;
 	
 
-	//first step of querry popup
+	//first step of query popup
 	@FindBy(xpath="//input[@id='name']")
 	WebElement txt_name;
 	

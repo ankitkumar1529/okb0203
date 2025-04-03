@@ -1,5 +1,6 @@
 package testCases;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import basePage.BaseClass;
@@ -7,7 +8,10 @@ import pageObject.OTP_page;
 import pageObject.ThankYou_page;
 import pageObject.querryPopUp_Page;
 
+@Listeners(utility.ExtentReportManager.class)
 public class TC002_Verify_Querry_popup extends BaseClass {
+	
+	
 	
 	@Test()
 	public void verifyQuerryPopUp()

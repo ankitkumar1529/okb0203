@@ -2,6 +2,8 @@ package basePage;
 
 import java.time.Duration;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -24,10 +26,21 @@ public class BaseClass {
 		
 	}
 	
-	@AfterClass()
+//	@AfterClass()
 	public void teardown()
 	{
 		driver.close();
+	}
+
+	public String captureScreen(String name) {
+		
+		TakesScreenshot tss=(TakesScreenshot)driver;
+		tss.getScreenshotAs(OutputType.FILE);
+		
+		
+		
+		
+		return null;
 	}
 	
 	
