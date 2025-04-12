@@ -21,7 +21,7 @@ public class querryPopUp_Page extends BasePage{
 	@FindBy(xpath="//select[@id='type']")
 	WebElement yourQuerryDropDown ;
 	
-	@FindBy(xpath="//input[@id='date_id_2025-04-03']")
+	@FindBy(xpath="//input[@id='date_id_2025-04-11']")
 	WebElement input_date;
 	
 	@FindBy(xpath="//div[@id='time_slots_wrapper']//div[1]")

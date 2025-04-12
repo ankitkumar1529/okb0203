@@ -32,7 +32,7 @@ public class TC003_verify_MotorInsurance extends BaseClass{
 		mi.setEmail();
 		mi.clickViewPricesBtn();
 		// Confirm details popup	
-		mi.setExpiryDate();
+//		mi.setExpiryDate();
 		mi.setInsuranceCompany();
 		mi.clickSubmitButton();
 		// Claim Confirm popup

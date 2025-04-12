@@ -42,9 +42,17 @@ public class Calander {
 		for(int i=0; i<nextBtn1.size(); i++)
 		{
 			WebElement	ele=nextBtn1.get(i);
-			System.out.println(ele.getText());
-			System.out.println(ele.getAttribute("href"));
+//			System.out.println(ele.getText());
+//			System.out.println(ele.getAttribute("href"));
+			String inputText=ele.getText();
+			String URL=ele.getAttribute("href");
+			if(URL!=null)
+			{
+				System.out.println(inputText+" "+URL);
+			}
+			
 		}
+		System.out.println("noumber of link i present :"+" "+nextBtn1.size());
 	}
 
 }

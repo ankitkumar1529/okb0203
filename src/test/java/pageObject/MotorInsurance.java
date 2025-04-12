@@ -116,7 +116,7 @@ public class MotorInsurance extends BasePage {
 // Confirm details popup	
 	public void setExpiryDate()
 	{
-		txt_expireDate.sendKeys("02/02/2020");
+		txt_expireDate.click();
 	}
 	
 	public void setInsuranceCompany()
